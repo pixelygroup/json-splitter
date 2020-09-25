@@ -1,0 +1,20 @@
+{
+  "name": "json-splitter",
+  "version": "1.0.0",
+  "description": "Splits json file based on size limit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "splitter",
+    "pixely",
+    "group"
+  ],
+  "author": "Lubos Krystynek",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.9.0"
+  }
+}
