@@ -1,8 +1,8 @@
 {
-  "name": "json-splitter",
-  "version": "1.0.0",
+  "name": "@pixelygroup/json-splitter",
+  "version": "1.0.1",
   "description": "Splits json file based on size limit",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,12 @@
   "author": "Lubos Krystynek",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.9.0"
+    "eslint": "^7.11.0"
+  },
+  "bin": {
+    "json-split": "./bin/index.js"
+  },
+  "dependencies": {
+    "yargs": "^16.1.0"
   }
 }
