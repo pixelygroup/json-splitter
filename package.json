@@ -22,5 +22,13 @@
   },
   "dependencies": {
     "yargs": "^16.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelygroup/json-splitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pixelygroup/json-splitter/issues"
+  },
+  "homepage": "https://github.com/pixelygroup/json-splitter#readme",
 }
