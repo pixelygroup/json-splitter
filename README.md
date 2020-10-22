@@ -25,7 +25,6 @@ npm install -g .
 In your terminal run command:
 
 ```
-// NOT YET AVAILABLE
 npm install -g @pixelygroup/json-splitter
 ```
 
