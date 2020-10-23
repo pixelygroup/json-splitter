@@ -1,10 +1,12 @@
 {
   "name": "@pixelygroup/json-splitter",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Splits json file based on size limit",
   "main": "bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bump-version": "version-x",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [
     "json",
@@ -15,7 +17,13 @@
   "author": "Lubos Krystynek",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^7.11.0"
+    "@pixelygroup/eslint-config-px": "^0.1.2",
+    "@pixelygroup/version-x": "^0.2.0",
+    "eslint": "^7.11.0",
+    "eslint-plugin-jsdoc": "^30.7.3",
+    "eslint-plugin-node": "^11.1.0",
+    "husky": "^3.0.8",
+    "lint-staged": "^9.4.1"
   },
   "bin": {
     "json-split": "./bin/index.js"
@@ -23,12 +31,20 @@
   "dependencies": {
     "yargs": "^16.1.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pixelygroup/json-splitter.git"
-  },
+  "repository": "github:pixelygroup/json-splitter.git",
   "bugs": {
     "url": "https://github.com/pixelygroup/json-splitter/issues"
   },
-  "homepage": "https://github.com/pixelygroup/json-splitter#readme"
+  "homepage": "https://github.com/pixelygroup/json-splitter#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
 }
