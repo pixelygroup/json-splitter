@@ -1,18 +1,17 @@
 {
   "name": "@pixelygroup/json-splitter",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Splits json file based on size limit",
   "main": "bin/index.js",
   "scripts": {
-    "bump-version": "version-x",
+    "version-bump": "version-x",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
   "keywords": [
     "json",
     "splitter",
-    "pixely",
-    "group"
+    "pixely group"
   ],
   "author": "Lubos Krystynek",
   "license": "MIT",
