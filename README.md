@@ -1,5 +1,5 @@
 # json-splitter
-This small tool splits JSON file to smaller files (&lt;1MB)
+This small tool splits JSON array file to smaller files (&lt;1MB)
 
 ![screenshot](https://github.com/pixelygroup/screenshots/raw/main/json-splitter/splitter.gif)
 
@@ -14,6 +14,11 @@ Options:
   -n, --name     Preferred output name (Default: Same as file)          [string]
 ```
 
+## How to run without installation
+Run using `npx` and pass necessary parameters. The script will create an `export` folder with the slices in the same place as your imported json.
+```shell
+npx @pixelygroup/json-splitter --size 2000 --file ./path-to-file/the-file.json
+```
 
 ## How to install globally from Github
 1. Download the repository.
