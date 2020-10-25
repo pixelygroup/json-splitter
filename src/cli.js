@@ -44,7 +44,7 @@ for (let i = 0; i<totalRecords; i++){
   const currentFileSize = JSON.stringify(files[fileIndex()]).length /1024
 
   if (currentFileSize + sliceKiloBytes > sizeLimitKB) {
-    console.log(currentFileSize, sliceKiloBytes)
+    console.log('Current size:', currentFileSize)
     files.push([])
   }
 
