@@ -1,6 +1,8 @@
 # json-splitter
 This small tool splits JSON file to smaller files (&lt;1MB)
 
+![screenshot](https://github.com/pixelygroup/screenshots/raw/main/json-splitter/splitter.gif)
+
 ```
 Usage: json-split -f <file> -s <size> -o <output>
 

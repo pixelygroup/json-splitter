@@ -1,6 +1,6 @@
 {
   "name": "@pixelygroup/json-splitter",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Splits json file based on size limit",
   "main": "bin/index.js",
   "scripts": {
