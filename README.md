@@ -40,5 +40,5 @@ npm install -g @pixelygroup/json-splitter
 npm uninstall -g @pixelygroup/json-splitter
 ```
 
-## Do you enjoy this package? Help us keep it maintained?
+## Do you enjoy this package? Help us keep it maintained!
 ### [Buy us a coffee or become a sponsor](https://github.com/sponsors/pixelygroup)
